@@ -1,6 +1,6 @@
 import { Logo, HeaderContainer, Nav, AuthButtons  } from './styles'
 
-export const Header: React.FC = () => (
+export const Header = () => (
     <HeaderContainer>
       <Logo>Arun's Job Portal</Logo>
       <Nav>

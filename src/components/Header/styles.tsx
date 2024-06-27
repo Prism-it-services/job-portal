@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f8f8;
+  background-color: #7FFFD4;
   padding: 10px 20px;
 `;
 
@@ -20,7 +20,13 @@ export const Nav = styled.nav`
     margin: 0 10px;
     text-decoration: none;
     color: #3a3a3a;
+
+    &:hover {
+        color: red;
+    }
   }
+
+
 `;
 
 export const AuthButtons = styled.div`
